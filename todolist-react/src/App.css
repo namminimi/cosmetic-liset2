@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+}
+
+#header {
+  background-color: purple;
+  width: 1000px;
+  height: 180px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+}
+
+#header h2 {
+  font-size: 40px;
+  color: #fff
+}
+
+#header #inpp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#header input {
+  width: 600px;
+  height: 40px;
+  border-radius: 20px;
+  border:0;
+  outline:0;
+  margin-right: 10px;
+  padding-left: 30px;
+}
+
+#header button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border:0;
+  font-size: 30px;
+}
+
+#wrap ul li {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#wrap ul li button {
+  background-color: #fff;
+  border: 0;
+}
+
+
+
